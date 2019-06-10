@@ -7,53 +7,54 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="shortcut icon" href="img/cohete.png" type="image/x-icon">
-    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-        _smartsupp.key = '912ebf90bbb9bc178a47997103671624da81ce30';
-        window.smartsupp||(function(d) {
-            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-            c.type='text/javascript';c.charset='utf-8';c.async=true;
-            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-        })(document);
-    </script>
     <title>Reaction. 3D Factory</title>
 </head>
-<body position="relative" data-spy="scroll" data-target="#navbar" data-offset="100">
+<body position="relative" data-spy="scroll" data-target="#navbar" data-offset="0">
     <!--navbar-->
     <header class="sticky-top">
-        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container">
-                <a href="index.html"><img src="img/logo_white.png" alt="Logo Reaction"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid nav-settings">
+            <img src="img/logo_black.png" alt="">
+        </div>
+        <nav class="navbar navbar-expand-lg nav-settings" id="navbar-main">
+            <div class="container-fluid d-flex justify-content-center ml-auto p-0 ">
+                <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#servicios">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#categorias">Categorias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="process.html">Proceso</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link btn btn-primary btn-reaction" href="#" data-toggle="modal" data-target="#modal">Solicita Cotización</a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse " id="navbar">
+                    <div class="container d-flex justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutUs.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#categorias">Categorias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="process.html">Proceso</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="process.html#faq">Preguntas</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="overlay-btn d-none d-md-block">
+                <div class="container d-flex justify-content-center mt-2">
+                    <a href="https://api.whatsapp.com/send?phone=5214422025073&text=%C2%A1Hola!%20Me%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%20de%203D%20Factory%20:)" class="btn btn-primary btn-reaction ml-0 mr-0">Solicita cotización</a>
                 </div>
             </div>
         </nav>
     </header>
-    <!--/nav-->
+   <!--navbar-->
     <!--Jumbotron-->
-    <section id="jumbotron">
+    <!-- <section id="jumbotron">
         <div class="jumbotron jumbotron-fluid bg-color-reaction-servicios mb-0">
             <div class="container pb-4">
                 <h1 class="display-4">Servicios</h1>
@@ -63,15 +64,15 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--/jumbotron-->
     
     <!--equipo-maquinaria-->
-    <section id="equipo-maquinaria" class="bg-color-categorias-servicios pb-4">
+    <section id="equipo-maquinaria" class="bg-color-categorias-servicios pb-4 mt-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 col-12 text-center">
-                    <h2>Simulación motriz o dinámica</h2>
+                    <h2>Equipo y maquinaria industrial</h2>
                 </div>           
             </div>
             <div class="row">
@@ -79,7 +80,7 @@
                    <div class="card">
                         <img src="img/services/industrial1.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Visualización mecánica, dinámica de fluidos</p>
+                            <p class="card-text">Visualización mecánica, hidráulica, de fluidos o métricas que describen etapas o procesos industriales.</p>
                         </div>
                     </div>
                </div>
@@ -87,7 +88,7 @@
                    <div class="card">
                         <img src="img/services/industrial2.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Diagramas animados</p>
+                            <p class="card-text">Diagramas animados que permiten reconocer partes y componentes en funcionamiento.</p>
                         </div>
                     </div>
                </div>
@@ -95,7 +96,7 @@
                    <div class="card">
                         <img src="img/services/industrial3.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Demos visuales detallados</p>
+                            <p class="card-text">Demos visuales detallados para capacitación operativa, gerencial o administrativa.</p>
                         </div>
                     </div>
                </div> 
@@ -104,11 +105,11 @@
     </section>
     <!--equipo-maquinaria-->
     <!--demo-productos-->
-    <section id="demo-productos" class="bg-color-categorias-servicios pb-4">
+    <section id="demo-productos" class="bg-color-categorias-servicios pb-4 mt-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 col-12 text-center">
-                    <h2>Demos de productos</h2>
+                    <h2>Demos de productos y servicios</h2>
                 </div>           
             </div>
             <div class="row">
@@ -116,7 +117,7 @@
                    <div class="card">
                         <img src="img/services/demo1.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Visualización descriptiva de las ventajas</p>
+                            <p class="card-text">Visualización descriptiva de las ventajas, funciones y atributos de su producto y servicio.</p>
                         </div>
                     </div>
                </div>
@@ -124,7 +125,7 @@
                    <div class="card">
                         <img src="img/services/demo2.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Construcción visual de prototipos</p>
+                            <p class="card-text">Construcción gráfica de prototipos, diseños y propuestas para su innovación o desarrollo.</p>
                         </div>
                     </div>
                </div>
@@ -132,7 +133,7 @@
                    <div class="card">
                         <img src="img/services/demo3.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Descripción visual de cómo funciona</p>
+                            <p class="card-text">Descripción funcional interna de un equipo, o cómo se aplica un producto o servicio.</p>
                         </div>
                     </div>
                </div> 
@@ -141,7 +142,7 @@
     </section>
     <!--demo-productos-->
     <!--ciencia-medica-->
-    <section id="ciencia-medica" class="bg-color-categorias-servicios pb-4">
+    <section id="ciencia-medica" class="bg-color-categorias-servicios pb-4 mt-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3 col-12 text-center">
@@ -153,7 +154,7 @@
                    <div class="card">
                         <img src="img/services/ciencia1.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Equipo industrial</p>
+                            <p class="card-text">Visualización descriptiva de diagnósticos médicos, detalles de intervención o tratamientos.</p>
                         </div>
                     </div>
                </div>
@@ -161,7 +162,7 @@
                    <div class="card">
                         <img src="img/services/ciencia2.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Equipo industrial</p>
+                            <p class="card-text">Descripción visual de partes, componentes, materiales y equipos médicos, funciones y cualidades.</p>
                         </div>
                     </div>
                </div>
@@ -169,7 +170,7 @@
                    <div class="card">
                         <img src="img/services/ciencia3.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Equipo industrial</p>
+                            <p class="card-text">Visualización para la descripción, análisis o presentación de escenarios de carácter científico.</p>
                         </div>
                     </div>
                </div> 
@@ -178,7 +179,7 @@
     </section>
     <!--ciencia-medica-->
     <!--arquitectura-urbanismo-->
-    <section id="arquitectura-urbanismo" class="bg-color-categorias-servicios pb-4">
+    <section id="arquitectura-urbanismo" class="bg-color-categorias-servicios pb-4 mt-2">
         <div class="container">
             <div class="row">
                   <div class="col-md-6 offset-md-3 col-12 text-center">
@@ -190,7 +191,7 @@
                    <div class="card">
                         <img src="img/services/urbanismo1.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Equipo industrial</p>
+                            <p class="card-text">Visualización animada para proyectos de ingeniería civil, infraestructura urbana e industrial.</p>
                         </div>
                     </div>
                </div>
@@ -198,7 +199,7 @@
                    <div class="card">
                         <img src="img/services/urbanismo2.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction-1">
-                            <p class="card-text">Equipo industrial</p>
+                            <p class="card-text">Construcción visual de planos isométricos, oficinas, recorridos y diseño de interiores.</p>
                         </div>
                     </div>
                </div>
@@ -206,19 +207,17 @@
                    <div class="card">
                         <img src="img/services/urbanismo3.jpg" class="card-img-top" alt="Equipo industrial">
                         <div class="card-body bg-color-reaction">
-                            <p class="card-text">Equipo industrial</p>
+                            <p class="card-text">Visualización de residencias, edificios y proyectos habitacionales, a partir de bocetos, planos o maquetas.</p>
                         </div>
                     </div>
                </div> 
             </div>
         </div>
     </section>
-    <section id="ct">
+    <section id="ct" class="mt-2 mb-2">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 offset-md-4 col-12">
-                    <a class="nav-link btn btn-primary btn-reaction" href="#" data-toggle="modal" data-target="#modal">Solicita Cotización</a>
-                </div>
+            <div class="row d-flex justify-content-center">
+                <a href="https://api.whatsapp.com/send?phone=5214422025073&text=%C2%A1Hola!%20Me%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%20de%203D%20Factory%20:)" class="btn btn-primary btn-reaction ml-0 mr-0">Solicita cotización</a>
             </div>
         </div>
     </section>

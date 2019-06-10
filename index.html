@@ -7,52 +7,53 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="shortcut icon" href="img/cohete.png" type="image/x-icon">
-    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-        _smartsupp.key = '912ebf90bbb9bc178a47997103671624da81ce30';
-        window.smartsupp||(function(d) {
-            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-            c.type='text/javascript';c.charset='utf-8';c.async=true;
-            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-        })(document);
-    </script>
     <title>Reaction. 3D Factory</title>
 </head>
-<body position="relative" data-spy="scroll" data-target="#navbar" data-offset="100">
+<body position="relative" data-spy="scroll" data-target="#navbar" data-offset="-50">
     <!--navbar-->
     <header class="sticky-top">
-        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container">
-                <a href="index.html"><img src="img/logo_white.png" alt="Logo Reaction"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid nav-settings">
+            <img src="img/logo_black.png" alt="">
+        </div>
+        <nav class="navbar navbar-expand-lg nav-settings" id="navbar-main">
+            <div class="container-fluid d-flex justify-content-center ml-auto p-0 ">
+                <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#servicios">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#categorias">Categorias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="process.html">Proceso</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link btn btn-primary btn-reaction" href="#" data-toggle="modal" data-target="#modal">Solicita Cotización</a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse " id="navbar">
+                    <div class="container d-flex justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutUs.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#categorias">Categorias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="process.html">Proceso</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="process.html#faq">Preguntas</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="overlay-btn d-none d-md-block">
+                <div class="container d-flex justify-content-center mt-2">
+                    <a href="https://api.whatsapp.com/send?phone=5214422025073&text=%C2%A1Hola!%20Me%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%20de%203D%20Factory%20:)" class="btn btn-primary btn-reaction ml-0 mr-0">Solicita cotización</a>
                 </div>
             </div>
         </nav>
     </header>
-    <!--/nav-->
-    <!--carousel-->
+   <!--navbar-->
+   <!--Carousell-->
     <section id="main">
         <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
             <div class="carousel-inner">
@@ -72,12 +73,12 @@
                     <div class="row align-items-center">
                         <div class="col-md-6 offset-md-6 text-center text-md-right">
                             <h1>Reaction Factory</h1>
-                            <p class="d-none d-md-block">
-                                Un equipo de especialistas en animación digital en 3D
-                                con más de 20 años de experiencia en producción visual.
+                            <p class="d-none d-md-block"> 
+                                Generamos soluciones visuales de alto impacto 
+                                que conseguirán generar valor visual a sus clientes.
                             </p>
-                            <a class="btn btn-outline-light" href="services.html">Mas información</a>
-                            <button type="button" class="btn btn-success btn-reaction" data-toggle="modal" data-target="#modal">Solicita cotización</button>
+                            <a class="btn btn-outline-light" href="ab">Mas información</a>
+                            <a href="https://api.whatsapp.com/send?phone=5214422025073&text=%C2%A1Hola!%20Me%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%20de%203D%20Factory%20:)" class="btn btn-primary btn-reaction ml-0 mr-0">Solicita cotización</a>
                         </div>
                     </div>
                 </div>
@@ -86,43 +87,56 @@
     </section>
     <!--/carousel-->
     <!--nosotros-->
-    <section id="nosotros">
-        <div class="container-fluid bg-color-reaction">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6 text-center text-md-left">
-                    <h2 class="h2">Nosotros</h2>
-                    <p>
-                        Somos un equipo de especialistas en animación, comprometidos en ofrecerle soluciones 
-                        gráficas que conseguirán impactar visualmente a sus clientes.
-                        Por medio de atractivas animaciones, describimos todas las ventajas
-                        y beneficios que su producto, proyecto o servicio, puede ofrece a 
-                        sus clientes.
-                            
-                    </p>
+    <section id="nosotros" class="mt-2">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col pr-0 pl-0">
+                    <img src="img/cover/nosotros.jpg" alt="Servicios">
                 </div>
-                <div class="col-12 col-md-6 pl-0 pr-0">
-                    <img src="img/cover/nosotros.jpg" alt="nosotros">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row text-center d-flex align-items-center">
+                            <div class="col mt-4">
+                                <h2>Nosotros</h2>
+                                <p>
+                                    Somos un equipo de especialistas en animación, comprometidos en ofrecerle 
+                                    soluciones visuales de alto impacto que conseguirán generar valor visualmente
+                                    a sus clientes.
+                                    <br><br>
+                                    Por medio de atractivas animaciones, describimos todas las ventajas y 
+                                    beneficios que su producto, proyecto o servicio, puede ofrece a sus clientes.
+                                        
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section>
     <!--/nosotros-->
     <!--servicios-->
-    <section id="servicios">
+    <section id="servicios" class="mt-2">
         <div class="container-fluid">
             <div class="row ">
                 <div class="col pr-0 pl-0">
                     <img src="img/cover/servicios.jpg" alt="Servicios">
                     <div class="overlay">
                         <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-6">
-                                    <h2>Servicios</h2>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <p>Generamos la visualización de su producto, la descripción que usted requiera 
-                                    y los acabados que impactarán a sus clientes, agregando ese elemento de valor y 
-                                    vanguardia que su empresa merece.</p>
+                            <div class="row align-items-center text-center">
+                                <div class="col">
+                                    <h2>Servicios</h2> <br>
+                                    <p>
+                                        Haciendo uso de la más avanzada tecnología en software de animación, 
+                                        generamos la visualización de su producto, la descripción que usted 
+                                        requiera y los acabados que impactarán a sus clientes, agregando ese 
+                                        elemento de valor que su empresa merece. <br> <br>
+                                        Ya sea por motivos comerciales, desarrollo, análisis, innovación 
+                                        o capacitación, solo llámenos. En una entrevista sin costo le asistiremos 
+                                        para diseñar la mejor aplicación visual para su producto, proyecto o servicio, 
+                                        al mejor costo de inversión.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -133,8 +147,8 @@
     </section>
     <!--/servicios-->
     <!--servicios-tabla-->
-    <section id="categorias">
-        <div class="container-fluid bg-container-reaction">
+    <section id="categorias" class="mt-2">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center mt-2 mb-2">
                     <h2>Categorias</h2>
@@ -144,7 +158,7 @@
                 <div class="col-12 col-md-3 pl-0">
                     <div class="card">
                         <a href="services.html"><img src="img/cover/EquipoIndustrial.jpg" class="card-img-top" alt="Equipo industrial"></a>
-                        <div class="card-body bg-color-reaction">
+                        <div class="card-body ">
                             <p class="card-text">Equipo industrial</p>
                         </div>
                     </div>
@@ -152,7 +166,7 @@
                 <div class="col-12 col-md-3">
                     <div class="card">
                         <a href="services.html"><img src="img/cover/ArquitecturaUrbanismo.jpg" class="card-img-top" alt="Arquitectura y urbanismo"></a>
-                        <div class="card-body bg-color-reaction">
+                        <div class="card-body ">
                             <p class="card-text">Arquitectura y urbanismo</p>
                         </div>
                     </div>
@@ -160,7 +174,7 @@
                 <div class="col-12 col-md-3">
                     <div class="card">
                         <a href="services.html"><img src="img/cover/CienciaMedica.png" class="card-img-top" alt="Ciencia médica y cientifíca"></a>
-                        <div class="card-body bg-color-reaction">
+                        <div class="card-body ">
                             <p class="card-text">Ciencia médica y cientifíca</p>
                         </div>
                     </div>
@@ -168,7 +182,7 @@
                 <div class="col-12 col-md-3  pr-0">
                     <div class="card">
                         <a href="services.html"><img src="img/cover/DemosProductos.jpg" class="card-img-top" alt="Demos de productos"></a>
-                        <div class="card-body bg-color-reaction">
+                        <div class="card-body ">
                             <p class="card-text">Demos de productos</p>
                         </div>
                     </div>
