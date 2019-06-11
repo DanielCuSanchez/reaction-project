@@ -70,7 +70,7 @@
     height: 100%;
     width: 100%;
 }
-.bg-color-categorias-servicios img{
+.bg-color-sectores-servicios img{
     height: 20rem;
     width: 100%;
     object-fit: cover;
@@ -91,19 +91,19 @@
 }
 #demo-productos{
     color: #ffffff;
-    background-color: rgb(106, 81, 165) !important;
+    background-color: rgb(43, 113, 128) !important;;
 }
 #ciencia-medica{
     color: #ffffff;
-    background-color: rgb(37, 165, 137) !important;
+    background-color: rgb(43, 113, 128) !important;;
 }
 #arquitectura-urbanismo{
     color: #ffffff;
-    background-color: rgb(14, 80, 110) !important;
+    background-color: rgb(43, 113, 128) !important;
 }
 /*index.html*/
 #main .carousel-inner img{
-    height: 70vh;
+    height: 78vh;
     object-fit: cover;
 }
 #carousel{
@@ -184,14 +184,14 @@
     height: 100%;
 
 }
-#categorias .card{
+#sectores .card{
     border: 5px solid rgb(229, 229, 229);
 }
 
-#categorias .card:hover{
+#sectores .card:hover{
     border: 5px solid rgb(43, 113, 128);
 }
-#categorias .card img{
+#sectores .card img{
     height: 35rem;
     width: 100%;
     object-fit: cover;
